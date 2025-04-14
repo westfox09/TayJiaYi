@@ -1,0 +1,72 @@
+/* Resetting default margin and padding for all elements */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header styling */
+header {
+    background-color: #93d0f4; /* Header background */
+    color: white; /* White text */
+    padding: 20px 0; /* Padding for header */
+    text-align: center; /* Centered text */
+}
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif; /* Font family */
+    font-size: 16px; /* Font size */
+    background-color: #f2f2f2; /* Background color */
+    color: #333; /* Text color */
+    line-height: 1.6; /* Line height */
+    padding: 25px; /* Padding for body */
+    padding-bottom: 10px; /* Padding for body */
+}
+
+section {
+    background-color: #f2f2f2; /* Section background */
+    padding-top: 20px; /* Padding for section */
+    padding-bottom: 20px; /* Padding for section */
+}
+
+table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Collapsing borders */
+    padding: 10px; /* Padding for table */
+    text-align: left; /* Left aligned text */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Border for cells */
+    padding: 10px; /* Padding for cells */
+}
+
+a:link {
+    color: #0079c1; /* Link color */
+    text-decoration: none; /* No underline */
+}
+a:visited {
+    color: #1a73e8; /* Visited link color */
+    text-decoration: none;
+}
+a:hover {
+    color: #1a73e8; /* Active link color */
+    text-decoration: underline; /* Underline on hover */
+}
+a:active {
+    color: #1a73e8; /* Active link color */
+    text-decoration: underline; /* Underline on active */
+}
+
+ul {
+    list-style-position: outside; /* Outside list */
+    list-style-type: disc; /* Bullet points */
+}
+
+/* Footer styling */
+footer {
+    background-color: #93d0f4; /* Header background */
+    color: white; /* White text */
+    padding: 10px 0; /* Padding for header */
+    text-align: center; /* Centered text */
+}
