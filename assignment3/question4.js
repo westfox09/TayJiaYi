@@ -5,4 +5,6 @@ const disneyData = {
 	close: "121.09",
 };
 
-// Write your code below
+disneyData['volume'] = "1512311"; // Adding a new property to the object
+
+console.log(disneyData); // Output the updated disneyData object

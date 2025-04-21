@@ -5,4 +5,11 @@ const disneyData = {
 	close: "121.09"
 };
 
-// Write your code below
+// Convert string values to numbers
+let disneyDataOpen = parseFloat(disneyData.open);
+let disneyDataHigh = parseFloat(disneyData.high);
+let disneyDataLow = parseFloat(disneyData.low);
+let disneyDataClose = parseFloat(disneyData.close);
+
+// Calculate using the formula of the open, high, low, and close values with fixed 2 decimal places
+console.log((disneyDataOpen - disneyDataHigh + disneyDataLow - disneyDataClose).toFixed(2));		
