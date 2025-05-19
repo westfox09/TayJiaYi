@@ -21,6 +21,7 @@ function WelcomeMessage(props) {
   }
   */
 
+  //Imagine API call to get users
   const users = [
     { name: 'Tom', country: 'Singapore' },
     { name: 'Jerry', country: 'Malaysia' },
@@ -29,9 +30,7 @@ function WelcomeMessage(props) {
 
   function WelcomeMessagesList() {
     return <ul>
-        <WelcomeMessage name="Tom" country="Singapore" />
-        <WelcomeMessage name="Jerry" country="Malaysia" />
-        <WelcomeMessage name="Sarah" country="Indonesia" />
+        {users.map((user) => <WelcomeMessage key={user.name} name={user.name} country={user.country} />)}
     </ul>
   }
   
